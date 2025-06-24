@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nekko SHIBUYA スライダー</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="image5.jpg" alt="ねっこロゴ">
+                    </a>
+                </div>
+                <nav class="nav-menu">
+                    <ul class="nav-list">
+                        <li><a href="#about-nekko" data-ja="ねっこのこと" data-en="About nekko">ねっこのこと</a></li>
+                        <li><a href="#shimashima-nekko" data-ja="しましまのねっこ" data-en="Striped nekko">しましまのねっこ</a></li>
+                        <li><a href="#guruguru-nekko" data-ja="ぐるぐるのねっこ" data-en="Spinning nekko">ぐるぐるのねっこ</a></li>
+                        <li><a href="#Museum nekko" data-ja="ねっこみゅーじあむ " data-en="Museum nekko">ねっこみゅーじあむ</a></li>                        
+                        <li><a href="#news" data-ja="おしらせ" data-en="News">おしらせ</a></li>
+                       <li><a href="#register-login"data-ja="新規会員登録/ログイン" data-en="Register/Login">新規会員登録/ログイン</a></li>
+                       <li><a href="#reservation"data-ja="施設予約" data-en="Facility Reservation">施設予約</a></li>
+                       <li><a href="#contact"data-ja="お問い合わせ" data-en="Contact">お問い合わせ</a></li>
+                        <li><a href="#access" data-ja="アクセス" data-en="Access">アクセス</a></li>
+                       
+                           <li class="lang-switcher">
+                            <button id="lang-toggle" class="lang-icon">
+                                <i class="fas fa-globe"></i> <span class="current-lang">JP</span> </button>
+                        </li>
+                    </ul>
+                    <div class="hamburger-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-slider">
+            <div class="slider-wrapper">
+                <div class="slider-item active">
+                    <img src="image1.jpg" alt="スライダー画像1">
+                    <div class="slider-caption">
+                        <h2 data-ja="こども、光合成" data-en="Children photosynthesize at nekko.">こども、光合成</h2>
+                        <p data-ja="みつける興味 ひろがる可能性" data-en="The possibility that interest to find spreads.">みつける興味 ひろがる可能性</p>
+                    </div>
+                </div>
+                <div class="slider-item active">
+                    <img src="image2.jpg" alt="スライダー画像2">
+                    <div class="slider-caption">
+                        <h2 data-ja="ワクドキグングン" data-en="New discoveries await you.">ワクドキグングン</h2>
+                        <p data-ja="冒険、挑戦、感動、ねっこから" data-en="Adventure, a challenge, the impression begin in here.">冒険、挑戦、感動、ねっこから</p>
+                    </div>
+                    </div>
+                <div class="slider-item active">
+                    <img src="image8.jpg" alt="スライダー画像3">
+                    <div class="slider-caption">
+                        <h2 data-ja="はじめのねっこ" data-en="Here is one step of the beginning.">はじめのねっこ</h2>
+                        <p data-ja="ここでのびる、ここがのびる" data-en="Develop diverse personalities here.">ここでのびる、ここがのびる</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-nav">
+                <button class="prev-btn"></button>
+                <button class="next-btn"></button>
+            </div>
+            <div class="slider-dots"></div>
+        </section>
+
+       <section id="about-nekko" class="section-padding">
+
+            <div class="container content-with-image reverse-order">
+                <div class="text-content">
+                    <h2 data-ja="ねっこのこと" data-en="About nekko">ねっこのこと</h2>
+                    <h3 data-ja="こどもたちの『興味のねっこ』を育てる" data-en="Cultivating the roots of children's interests">こどもたちの『興味のねっこ』を育てる</h3>
+                    <p data-ja="nekko SHIBUYAはこどもたちが自然やアート、<br>そして大学や企業によるさまざまなコンテンツから<br>『あたらしい未来』を創造する場所。<br>今までにない技術や商品・サービス開発の研究の場となり、<br>最新の体験ができる唯一無二のユニバーサルな施設です。" data-en="This section explains the swirly nekko, detailing its unique characteristics, roles, and activities.">
+                        nekko SHIBUYAはこどもたちが自然やアート、<br>そして大学や企業によるさまざまなコンテンツから<br>『あたらしい未来』を創造する場所。<br>今までにない技術や商品・サービス開発の研究の場となり、<br>最新の体験ができる唯一無二のユニバーサルな施設です。</p>
+                </div>
+                <div class="image-content">
+                    <img src="image9.jpg" alt="ねっこのこと">
+                </div>
+            </div>
+        </section>
+
+        <section id="shimashima-nekko" class="section-padding bg-light-gray">
+            <div class="container content-with-image">
+                <div class="text-content">
+                    <h2 data-ja="しましまのねっこ" data-en="Striped nekko">しましまのねっこ</h2>
+                   <h3 data-ja="てくてく、なんだろう？が、ふむふむ、そうなのか！になる。" data-en="This section details the striped nekko, explaining its unique patterns, roles, and activities.">てくてく、なんだろう？が、ふむふむ、そうなのか！になる。</h3>
+                    <p data-ja="みんなといっしょに作ったり発表したりこどもたちが走り回りながら、<br>はしゃぎながら『もっと』をふかめられるぞーん。" data-en="Please place content specific to the striped nekko in this section.">みんなといっしょに作ったり発表したりこどもたちが走り回りながら、はしゃぎながら『もっと』をふかめられるぞーん。</p>
+                </div>
+                <div class="image-content">
+                    <img src="image3.jpg" alt="しましまのねっこ">
+                </div>
+            </div>
+        </section>
+
+        <section id="guruguru-nekko" class="section-padding">
+            <div class="container content-with-image reverse-order">
+                <div class="text-content">
+                    <h2 data-ja="ぐるぐるのねっこ" data-en="Spinning nekko">ぐるぐるのねっこ</h2>
+                    <h3 data-ja="わくわく、どきどき、もっと！が見つかる。" data-en="This section explains the swirly nekko, detailing its unique characteristics, roles, and activities.">わくわく、どきどき、もっと！が見つかる。</h3>
+                    <p data-ja="小さなこどもたちも安心してあそべるくつを脱いで座ったり<br>ねっころがったり
+じゆうに歩いて探索できるぞーん。" data-en="Please place content specific to the swirly nekko in this section.">小さなこどもたちも安心してあそべるくつを脱いで座ったり<br>ねっころがったりじゆうに歩いて探索できるぞーん。</p>
+                </div>
+                <div class="image-content">
+                    <img src="image4.jpg" alt="ぐるぐるのねっこ">
+                </div>
+            </div>
+        </section>
+
+<section id="nekko-museum" class="section-padding bg-light-gray">
+            <div class="container content-with-image">
+                <div class="text-content">
+                    <h2 data-ja="ねっこみゅーじあむ" data-en="nekko-museum">ねっこみゅーじあむ</h2>
+                    <h3 data-ja="アートを見て、ふれて、たのしむ、デジタルミュージアム。" data-en="This section details the nekko-museum, explaining its unique patterns, roles, and activities.">アートを見て、ふれて、たのしむ、デジタルミュージアム。</h3>
+                    <p data-ja="ほんもののアートを目の前でじっくり鑑賞。<br>こどもたちの想像力がゆたかになるぞーん。" data-en="This section where children can enjoy watching real art up close and use their imagination.">ほんもののアートを目の前でじっくり鑑賞。<br>こどもたちの想像力がゆたかになるぞーん。</p>
+                </div>
+                <div class="image-content">
+                    <img src="image7.jpg" alt="ねっこみゅーじあむ">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="news" class="section-padding">
+            <div class="container">
+                <h2 data-ja="おしらせ" data-en="News">おしらせ</h2>
+                <div class="news-list">
+                    <article class="news-item">
+                        <h3 data-ja="2027年7月20日: nekko SHIBUYAがオープン！" data-en="July 20, 2027: nekko SHIBUYA launched!">2027年7月20日: nekko SHIBUYAがオープン！</h3>
+                        <p data-ja="詳細はこちらをご覧ください。" data-en="Click here for details.">詳細はこちらをご覧ください。</p>
+                        <a href="#" class="read-more" data-ja="続きを読む" data-en="Read More">続きを読む</a>
+                    </article>
+                    <article class="news-item">
+                        <h3 data-ja="2027年10月15日: 公式イメージキャラクター決定！" data-en="October 15, 2027: Official image character decided!">公式イメージキャラクター決定！</h3>
+                        <p data-ja="詳細はこちらをご覧ください。" data-en="Now more user-friendly and visually appealing.">詳細はこちらをご覧ください。</p>
+                        <a href="#" class="read-more" data-ja="続きを読む" data-en="Read More">続きを読む</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="register-login" class="section-padding bg-light-gray">
+            <div class="container">
+                <h2 data-ja="新規会員登録 / ログイン" data-en="Register / Login">新規会員登録 / ログイン</h2>
+                <p data-ja="新規会員登録、ログインはこちらから。" data-en="Information and forms for registration or login are placed here.">新規会員登録、ログインはこちらから。</p>
+                <div class="button-group">
+                    <a href="reg.html" class="button primary-button" target="_blank" rel="noopener">新規会員登録 / ログイン</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="reservation" class="section-padding">
+            <div class="container">
+                <h2 data-ja="施設予約" data-en="Facility Reservation">施設予約</h2>
+                <p data-ja="施設予約システムへのリンクや、予約方法の説明をここに配置します。" data-en="Links to the facility reservation system and instructions on how to book are placed here.">施設予約システムへのリンクや、予約方法の説明をここに配置します。</p>
+                <a href="reservation.html" class="button primary-button" target="_blank" rel="noopener">施設を予約する</a>
+            </div>
+        </section>
+
+        <section id="contact" class="section-padding bg-light-gray">
+            <div class="container">
+                <h2 data-ja="お問い合わせ" data-en="Contact Us">お問い合わせ</h2>
+                <p data-ja="お問い合わせはこちらから。" data-en="Contact forms and contact information are placed here.">お問い合わせはこちらから。</p>
+               <a href="contact.html" class="button primary-button" target="_blank" rel="noopener">お問い合わせフォームへ </a>
+
+
+            </div>
+        </section>
+
+        <section id="access" class="section-padding">
+            <div class="container">
+                <h2>アクセス</h2>
+                <p>所在地：東京都渋谷区渋谷一丁目18-3</p>
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.6705608759325!2d139.7042730761501!3d35.66099593027814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b56f2e2f3d1%3A0x6a0c5c4f3f0e8f8!2s1-18-3%20Shibuya%2C%20Shibuya%20City%2C%20Tokyo%20150-0002%2C%20Japan!5e0!3m2!1sen!2sjp!4v1716860000000!5m2!1sen!2sjp"
+                        width="100%"
+                        height="300"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3 data-ja="サイトマップ" data-en="Sitemap">サイトマップ</h3>
+                    <ul>
+                        <li><a href="index.html" data-ja="ホーム" data-en="index.html">ホーム</a></li>
+                        <li><a href="#about-nekko" data-ja="ねっこのこと" data-en="About nekko">ねっこのこと</a></li>
+                        <li><a href="#shimashima-nekko" data-ja="しましまのねっこ" data-en="Striped nekko">しましまのねっこ</a></li>
+                        <li><a href="#guruguru-nekko" data-ja="ぐるぐるのねっこ" data-en="Spinning nekko">ぐるぐるのねっこ</a></li>
+                        <li><a href="#nekko-museum" data-ja="ねっこみゅーじあむ " data-en="Museum nekko">ねっこみゅーじあむ</a></li>  
+                        <li><a href="#news" data-ja="おしらせ" data-en="News">おしらせ</a></li>
+                        <li><a href="#register-login" data-ja="新規会員登録/ログイン" data-en="Register/Login">新規会員登録/ログイン</a></li>
+                        <li><a href="#reservation" data-ja="施設予約" data-en="Facility Reservation">施設予約</a></li>
+                        <li><a href="#contact" data-ja="お問い合わせ" data-en="Contact">お問い合わせ</a></li>
+                        <li><a href="#access" data-ja="アクセス" data-en="Access">アクセス</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-ja="ポリシー" data-en="Policy">ポリシー</h3>
+                    <ul>
+                        <li><a href="#" data-ja="プライバシーポリシー" data-en="Privacy Policy">プライバシーポリシー</a></li>
+                        <li><a href="#" data-ja="セキュリティポリシー" data-en="Security Policy">セキュリティポリシー</a></li>
+                        <li><a href="#" data-ja="ソーシャルメディアポリシー" data-en="Social Media Policy">ソーシャルメディアポリシー</a></li>
+                        <li><a href="#" data-ja="サイトポリシー" data-en="Site Policy">サイトポリシー</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 data-ja="会社情報" data-en="Company Info">会社情報</h3>
+                    <p data-ja="株式会社リソー教育" data-en="Riso Kyoiku Co.,Ltd.">株式会社リソー教育</p>
+                    <p data-ja="東京都豊島区目白三丁目1番地40号" data-en="Mejiro 3-1-40, Toshima, Tokyo">東京都豊島区目白三丁目1番地40号</p>
+                    <p data-ja="電話: 03-5996-2501" data-en="Phone: 03-5996-2501">電話: 03-5996-2501</p>
+                    <p data-ja="URL: https://www.riso-kyoikugroup.com" data-en="URL: https://www.riso-kyoikugroup.com">URL:https://www.riso-kyoikugroup.com</p>
+                    <p data-ja="Email: info@nekko-shibuya.co.jp" data-en="Email: info@nekko.co.jp">Email: info@nekko-shibuya.co.jp</p>
+                </div>
+                <div class="footer-section social-links">
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="X (formerly Twitter)"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="#" aria-label="LINE"><i class="fab fa-line"></i></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p data-ja="© 2027 nekko SHIBUYA. All Rights Reserved." data-en="© 2027 nekkos SHIBUYA. All Rights Reserved.">© 2027 nekko SHIBUYA All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // --- ハンバーガーメニューの機能 ---
+            const hamburger = document.querySelector('.hamburger-menu');
+            const navMenu = document.querySelector('.nav-menu .nav-list');
+
+            // ハンバーガーアイコンをクリックしたときの処理
+            hamburger.addEventListener('click', function() {
+                navMenu.classList.toggle('active'); // ナビメニューの表示/非表示を切り替え
+                hamburger.classList.toggle('active'); // ハンバーガーアイコンのアニメーションを切り替え
+            });
+
+            // メニュー項目をクリックしたらメニューを閉じる（モバイルの場合）
+            // nav-list内のすべてのaタグ（リンク）を取得
+            const navLinks = document.querySelectorAll('.nav-list a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    // ウィンドウ幅が768px以下（モバイルサイズを想定）の場合のみ閉じる
+                    if (window.innerWidth <= 768) {
+                        navMenu.classList.remove('active');
+                        hamburger.classList.remove('active');
+                    }
+                });
+            });
+
+            // --- スライダーの機能 ---
+            const sliderWrapper = document.querySelector('.slider-wrapper');
+            const sliderItems = document.querySelectorAll('.slider-item');
+            const prevBtn = document.querySelector('.slider-nav .prev-btn');
+            const nextBtn = document.querySelector('.slider-nav .next-btn');
+            const sliderDotsContainer = document.querySelector('.slider-dots');
+            let currentIndex = 0; // 現在表示されているスライドのインデックス
+            let autoSlideInterval; // 自動スライドのインターバルID
+            const slideDuration = 7000; // 7秒ごとにスライド（ゆったりとした切り替えのため）
+
+            // スライダーの下にドットナビゲーションを生成
+            sliderItems.forEach((_, index) => {
+                const dot = document.createElement('span');
+                dot.classList.add('dot'); // 'dot' クラスを追加
+                if (index === 0) dot.classList.add('active'); // 最初のドットはアクティブにする
+                dot.addEventListener('click', () => {
+                    goToSlide(index); // クリックしたドットに対応するスライドへ移動
+                    resetAutoSlide(); // 手動操作後、自動スライドをリセット
+                });
+                sliderDotsContainer.appendChild(dot); // ドットコンテナに追加
+            });
+
+            const dots = document.querySelectorAll('.slider-dots .dot'); // 生成されたドットをすべて取得
+
+            // 指定されたインデックスのスライドを表示する関数
+            function showSlide(index) {
+                // すべてのスライダーアイテムからactiveクラスを削除
+                sliderItems.forEach(item => item.classList.remove('active'));
+                // 現在のインデックスのアイテムにactiveクラスを追加して表示
+                sliderItems[index].classList.add('active');
+
+                // ドットのactive状態を更新
+                dots.forEach(dot => dot.classList.remove('active')); // すべてのドットからactiveクラスを削除
+                dots[index].classList.add('active'); // 現在のスライドに対応するドットをアクティブにする
+            }
+
+            // 指定されたインデックスのスライドへ移動する関数
+            function goToSlide(index) {
+                currentIndex = index;
+                showSlide(currentIndex);
+            }
+
+            // 次のスライドへ移動する関数
+            function nextSlide() {
+                // 現在のインデックスが最後のスライドでなければ次へ、そうでなければ最初のスライドへ
+                currentIndex = (currentIndex < sliderItems.length - 1) ? currentIndex + 1 : 0;
+                showSlide(currentIndex);
+            }
+
+            // 前のスライドへ移動する関数
+            function prevSlide() {
+                // 現在のインデックスが最初でなければ前へ、そうでなければ最後のスライドへ
+                currentIndex = (currentIndex > 0) ? currentIndex - 1 : sliderItems.length - 1;
+                showSlide(currentIndex);
+            }
+
+            // スライダーの左右ボタンのイベントリスナー
+            prevBtn.addEventListener('click', () => {
+                prevSlide();
+                resetAutoSlide(); // 手動操作後、自動スライドをリセット
+            });
+
+            nextBtn.addEventListener('click', () => {
+                nextSlide();
+                resetAutoSlide(); // 手動操作後、自動スライドをリセット
+            });
+
+            // 自動スライドを開始する関数
+            function startAutoSlide() {
+                autoSlideInterval = setInterval(nextSlide, slideDuration); // 指定時間ごとにnextSlideを実行
+            }
+
+            // 自動スライドをリセットする関数（手動操作があった場合など）
+            function resetAutoSlide() {
+                clearInterval(autoSlideInterval); // 現在の自動スライドを停止
+                startAutoSlide(); // 新たに自動スライドを開始
+            }
+
+            // ページロード時の初期表示と自動スライドの開始
+            showSlide(currentIndex); // 最初のスライドを表示
+            startAutoSlide(); // 自動スライドを開始
+
+            // --- 言語切り替えの機能 ---
+            const langToggleButton = document.getElementById('lang-toggle'); // 地球儀アイコンのボタン
+            const currentLangDisplay = document.querySelector('.current-lang'); // 現在の言語表示用span
+            let currentLang = 'ja'; // デフォルト言語を日本語に設定
+
+            // 言語を更新する関数
+            function updateLanguage(lang) {
+                currentLang = lang; // 現在の言語を更新
+                localStorage.setItem('currentLang', lang); // 言語設定をブラウザのローカルストレージに保存
+
+                // ボタン内の言語表示を更新
+                if (lang === 'ja') {
+                    currentLangDisplay.textContent = 'JP';
+                } else {
+                    currentLangDisplay.textContent = 'EN';
+                }
+
+                // data-jaまたはdata-en属性を持つすべての要素を検索し、テキストを更新
+                document.querySelectorAll('[data-ja], [data-en]').forEach(element => {
+                    const jaText = element.getAttribute('data-ja'); // 日本語のテキストを取得
+                    const enText = element.getAttribute('data-en'); // 英語のテキストを取得
+
+                    // innerHTML を使用して、<br>タグが正しくレンダリングされるようにする
+                    if (lang === 'ja' && jaText) {
+                        element.innerHTML = jaText; // 日本語の場合、data-jaのテキストを設定
+                    } else if (lang === 'en' && enText) {
+                        element.innerHTML = enText; // 英語の場合、data-enのテキストを設定
+                    }
+                });
+
+                // input要素のplaceholderの更新 (もしあれば)
+                document.querySelectorAll('[data-ja-placeholder], [data-en-placeholder]').forEach(element => {
+                    const jaPlaceholder = element.getAttribute('data-ja-placeholder');
+                    const enPlaceholder = element.getAttribute('data-en-placeholder');
+
+                    if (lang === 'ja' && jaPlaceholder) {
+                        element.placeholder = jaPlaceholder;
+                    } else if (lang === 'en' && enPlaceholder) {
+                        element.placeholder = enPlaceholder;
+                    }
+                });
+            }
+
+            // 言語切り替えボタン（地球儀アイコン）のイベントリスナー
+            langToggleButton.addEventListener('click', function() {
+                if (currentLang === 'ja') {
+                    updateLanguage('en'); // 現在が日本語なら英語へ切り替え
+                } else {
+                    updateLanguage('ja'); // 現在が英語なら日本語へ切り替え
+                }
+            });
+
+            // ページロード時にローカルストレージに保存されている言語設定を適用
+            const savedLang = localStorage.getItem('currentLang');
+            if (savedLang) {
+                updateLanguage(savedLang); // 保存されている言語があればそれを適用
+            } else {
+                updateLanguage(currentLang); // なければデフォルト言語（ja）を適用
+            }
+        });
+    </script>
+</body>
+</html>
